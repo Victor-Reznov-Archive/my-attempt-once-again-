@@ -1,0 +1,86 @@
+body{
+    padding: 0px;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header img{
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+
+}
+.title{
+    color: white;
+}
+.name{
+    color: white;
+}
+
+.About{
+    text-align: center;
+        
+    background-color: #fff;
+    border-radius: 9px;
+    margin: 20px auto;
+    max-width: 70%;
+    padding: 30px;
+    box-shadow: -13px 13px 10px rgba(0, 0, 0, 0.4);
+}
+.skills{
+    text-align: center;
+    background-color: #fff;
+    /* background-color: #333; */
+    
+    border-radius: 9px;
+    margin: 20px auto;
+    max-width: 70%;
+    padding: 30px;
+    box-shadow: -13px 13px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card{
+    display: inline-flex;
+    background-color:#bebdbd;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.card:hover{
+    background-color: #f4f1f1;
+    transition: ease;
+    transform: translateY(-9px);
+}
+
+.projects{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 9px;
+    margin: 20px auto;
+    max-width: 70%;
+    padding: 30px;
+    box-shadow: -13px 13px 10px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+    background-color: #333;
+    color: aliceblue;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 6px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
